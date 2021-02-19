@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
             builder: (BuildContext ctx, AsyncSnapshot snapshot) {
               if (snapshot.data == "waiting") {
                 return Center(
-                  child: Text('Loading a new recipe...'),
+                  child: Text('Loading a new recipe..efeffevf.'),
                 );
               }
               String videoId = YoutubePlayer.convertUrlToId(snapshot.data['meals'][0]['strYoutube']);
